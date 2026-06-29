@@ -1,15 +1,41 @@
-body{
-    background-color: rgb(92, 92, 90);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.head{
-    color : rgb(0, 0, 255);
+
+html, body {
+    width: 100vw;
+    height: 100vh;
 }
-#bglime {
-         background-color: brown;
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
 }
-p{
-    color : white;
+
+div {
+    padding: 20px;
+    text-align: center;
+    width: min(500px, 90vw);
 }
-#para{
-    color: green;
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+button {
+    width: 100%;
+    padding: 10px 24px;
+    color: black;
+    font-size: large;
+    background-color: rgb(0, 255, 255);
+    cursor: pointer;
+}
+
+button:hover {
+    transform-box: fill-box;
 }
